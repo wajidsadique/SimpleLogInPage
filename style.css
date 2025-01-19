@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(./Assist/bird.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   color: white;
+   height: 100vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    border: 4px solid rgb(252, 248, 248);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(249, 247, 247);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+.container::before{
+    filter: blur(4px);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.input_tags{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+   
+}
+#tags_2{
+    width: 300px;
+    height: 35px;
+    border-radius: 40px;
+    border: 3px solid white;
+    padding-left: 20px;
+    font-size: large;
+}
+#img_1{
+    position: relative;
+    top: 10px;
+    right: 35px; 
+
+}
+#img_2{
+    position: relative;
+    top: 10px;
+    right: 35px;
+}
+#check_4{
+    position: relative;
+    left: 40px;
+    top: 25px;
+    font-size: 17px;
+}
+#check_4>p{
+    position: relative;
+    bottom: 21px;
+    left: 18px;
+}
+#para_5{
+    position: relative;
+    left: 225px;
+    bottom: 15px;
+    font-size: 17px;
+}
+
+
+
+#a_tag{
+    text-decoration: none;
+    color: white;
+}
+#a_tag:hover{
+   text-decoration: underline;
+}
+
+#btn_1{
+    width: 330px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    left: 40px;
+    background-color: white;
+    border: 3px solid white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#para_2{
+    position: relative;
+    top: 10px;
+    left: 90px;
+    font-size: 17px;
+}
+
+
